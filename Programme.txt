@@ -1,0 +1,34 @@
+program demonstration;
+
+var entree, resultat, limite : int;
+
+Begin
+    readln(entree);
+    resultat := (entree + 2) * 3;
+    limite := 12;
+    writeln(resultat);
+
+    if resultat < limite then
+        writeln(resultat);
+    Endif
+
+    if resultat > limite 
+        writelnlimite);
+    Endif
+
+    if resultat <= limite then
+        writeln(resultat);
+    Endif
+
+    if resultat >= limite then
+        writeln(resultat);
+    Endif
+
+    if resultat <> limite then
+        writeln(resultat);
+    Endif
+
+    if resultat == limite then
+        writeln(limite);
+    Endif
+End.
